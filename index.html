@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IdentyQuest — Bêta très bientôt</title>
+    <meta name="description"
+        content="IdentyQuest — explore qui tu es, organise ta journée et reste aligné. Bêta privée très bientôt." />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header" role="banner">
+        <div class="container-header">
+            <img class="logo" src="assets/logo.png" alt="IdentyQuest — logo" />
+            <h1>IdentyQuest</h1>
+        </div>
+    </header>
+
+
+
+    <!-- ===== MAIN ===== -->
+    <main id="main" class="site-main" role="main">
+        <!-- Hero -->
+        <section class="body" aria-labelledby="hero-title">
+            <div class="container-form">
+                <h1>
+                    Explore ton esprit et embrasse ton identité.
+                </h1>
+                <p class="texte">
+                    La <strong>bêta privée</strong> arrive très bientôt. Inscris-toi pour passer en priorité.
+                    <strong>Seulement 100 places !!</strong>
+                </p>
+                <img class="join" src="assets/rejoins.png" alt="Rejoindre la bêta" />
+                <form action="https://formspree.io/f/xyzdlner" method="POST">
+                    <label>
+                        Reçois l'accès à la bêta :
+                        <input type="email" name="email" class="input" required placeholder="ton@mail.fr" />
+                    </label>
+                    <button type="submit" class="btn">Je m'inscris</button>
+                    <p class="help">Ton email ne sera utilisé que pour la bêta.</p>
+                </form>
+
+
+
+                <figure class="app-preview">
+                    <img class="screen" src="assets/app.png" alt="Aperçu de l’application IdentyQuest sur mobile" />
+
+                    <figcaption class="download">
+                        <!-- <a class="btn btn--download" href="https://ton-lien-de-telechargement-apk" target="_blank"
+                            rel="noopener" aria-label="Télécharger la bêta IdentyQuest pour Android (fichier .apk)"> 
+                            Télécharger la bêta Android (.apk)
+                        </a> -->
+                        <p class="download__note">📣 La bêta est disponible uniquement sur <strong>Android</strong> pour
+                            le moment. iOS arrive plus tard.</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features" aria-labelledby="features-title">
+            <div class="container">
+                <h2>Pourquoi c’est différent ?</h2>
+                <h4>IdentyQuest est conçu par un neuroatypique pour les personnes neuroatypiques !</h4>
+                <div class="grid grid--3">
+                    <article class="card">
+                        <h3 class="card__title">Tout-en-un </h3>
+                        <p class="card__text">Agenda, journal, rappels et tests réunis. Fini de s’éparpiller entre dix
+                            applis différentes.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Pensé pour toi</h3>
+                        <p class="card__text">Interface claire, couleurs douces et outils adaptés aux besoins réels. Tu
+                            avances sans surcharge ni détour.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Explore ton identité</h3>
+                        <p class="card__text">Découvre des tests et réflexions pour mieux comprendre qui tu es, au-delà
+                            des étiquettes.</p>
+                    </article>
+                </div>
+                <div class="grid grid--3">
+                    <article class="card">
+                        <h3 class="card__title">Ta progression, sans pression</h3>
+                        <p class="card__text">Des badges motivants et des rappels bienveillants. Ici, pas de pression,
+                            juste ton chemin personnel.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Des ressources qui te ressemblent</h3>
+                        <p class="card__text">Articles, outils et témoignages sélectionnés avec soin pour accompagner
+                            ton parcours identitaire.
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Une app différente</h3>
+                        <p class="card__text">IdentyQuest n’imite personne. C’est une expérience unique, faite pour les
+                            cerveaux qui ne rentrent pas dans les cases.</p>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            © <span id="year">2025</span> IdentyQuest — <a href="./legal.html">Mentions Légales</a> — <a
+                href="./rgpd.html">RGPD</a> — <a href="mailto:identyquest@gmail.com">Contact</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
